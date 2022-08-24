@@ -2,4 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Test(){
 //wassup if yall see this then that means yall got my script - sam
+//リグマボース -jesus
 }
