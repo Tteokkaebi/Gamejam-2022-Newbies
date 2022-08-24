@@ -3,4 +3,5 @@
 function Test(){
 //wassup if yall see this then that means yall got my script - sam
 //リグマボース -jesus
-}
+//hello i am boomer technician- varisha
+} 
