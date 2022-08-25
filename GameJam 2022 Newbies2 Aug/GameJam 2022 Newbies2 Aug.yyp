@@ -1,6 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"Card_DOWN","path":"sprites/Card_DOWN/Card_DOWN.yy",},"order":0,},
+    {"id":{"name":"Card_UP","path":"sprites/Card_UP/Card_UP.yy",},"order":1,},
+    {"id":{"name":"Card_LEFT","path":"sprites/Card_LEFT/Card_LEFT.yy",},"order":3,},
     {"id":{"name":"Test","path":"scripts/Test/Test.yy",},"order":15,},
+    {"id":{"name":"Card_RIGHT","path":"sprites/Card_RIGHT/Card_RIGHT.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
