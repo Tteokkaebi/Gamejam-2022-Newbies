@@ -10,6 +10,7 @@
     {"id":{"name":"Test","path":"scripts/Test/Test.yy",},"order":15,},
     {"id":{"name":"Sprite_DASH","path":"sprites/Sprite_DASH/Sprite_DASH.yy",},"order":7,},
     {"id":{"name":"Card_RIGHT","path":"sprites/Card_RIGHT/Card_RIGHT.yy",},"order":2,},
+    {"id":{"name":"oIDLE","path":"objects/oIDLE/oIDLE.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
