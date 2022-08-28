@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b8560f7d-1e86-4c0b-8054-1716c038d398","path":"sprites/Grass_BLOCKCB/Grass_BLOCKCB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b8560f7d-1e86-4c0b-8054-1716c038d398","path":"sprites/Grass_BLOCKCB/Grass_BLOCKCB.yy",},"LayerId":{"name":"3f942d19-3a20-4871-b605-338fc9f021cc","path":"sprites/Grass_BLOCKCB/Grass_BLOCKCB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Grass_BLOCKCB","path":"sprites/Grass_BLOCKCB/Grass_BLOCKCB.yy",},"resourceVersion":"1.0","name":"b8560f7d-1e86-4c0b-8054-1716c038d398","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2c52d084-6d12-4ba6-85dc-aac1453a0e6f","path":"sprites/Desert_2C/Desert_2C.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2c52d084-6d12-4ba6-85dc-aac1453a0e6f","path":"sprites/Desert_2C/Desert_2C.yy",},"LayerId":{"name":"7442af25-449b-411f-a59d-d66e6c19ed60","path":"sprites/Desert_2C/Desert_2C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Desert_2C","path":"sprites/Desert_2C/Desert_2C.yy",},"resourceVersion":"1.0","name":"2c52d084-6d12-4ba6-85dc-aac1453a0e6f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Grass_BLOCKCB","path":"sprites/Grass_BLOCKCB/Grass_BLOCKCB.yy",},
+    "spriteId": {"name":"Desert_2C","path":"sprites/Desert_2C/Desert_2C.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d5ad2870-5cdf-466f-a52f-3f900f5c66f4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8560f7d-1e86-4c0b-8054-1716c038d398","path":"sprites/Grass_BLOCKCB/Grass_BLOCKCB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"279c1902-fdf4-4142-ab76-86a6636291fa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c52d084-6d12-4ba6-85dc-aac1453a0e6f","path":"sprites/Desert_2C/Desert_2C.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Grass_BLOCKCB","path":"sprites/Grass_BLOCKCB/Grass_BLOCKCB.yy",},
+    "parent": {"name":"Desert_2C","path":"sprites/Desert_2C/Desert_2C.yy",},
     "resourceVersion": "1.4",
-    "name": "Grass_BLOCKCB",
+    "name": "Desert_2C",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3f942d19-3a20-4871-b605-338fc9f021cc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7442af25-449b-411f-a59d-d66e6c19ed60","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Grass",
-    "path": "folders/Sprites/Grass.yy",
+    "name": "Desert",
+    "path": "folders/Sprites/Desert.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Grass_BLOCKCB",
+  "name": "Desert_2C",
   "tags": [],
   "resourceType": "GMSprite",
 }
