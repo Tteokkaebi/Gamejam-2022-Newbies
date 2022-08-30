@@ -24,14 +24,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o/o.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o/o.yy",},"LayerId":{"name":"c17ebc61-aebd-45d8-b6a9-872b2475760c","path":"sprites/o/o.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o/o.yy",},"LayerId":{"name":"d3a60ecd-cef6-4805-9f78-5b81334bceb5","path":"sprites/o/o.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o/o.yy",},"LayerId":{"name":"f8e2183c-af3a-471b-9e02-8a6d46c0c717","path":"sprites/o/o.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"o","path":"sprites/o/o.yy",},"resourceVersion":"1.0","name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o96/o96.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o96/o96.yy",},"LayerId":{"name":"c17ebc61-aebd-45d8-b6a9-872b2475760c","path":"sprites/o96/o96.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o96/o96.yy",},"LayerId":{"name":"d3a60ecd-cef6-4805-9f78-5b81334bceb5","path":"sprites/o96/o96.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o96/o96.yy",},"LayerId":{"name":"f8e2183c-af3a-471b-9e02-8a6d46c0c717","path":"sprites/o96/o96.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"o96","path":"sprites/o96/o96.yy",},"resourceVersion":"1.0","name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"o","path":"sprites/o/o.yy",},
+    "spriteId": {"name":"o96","path":"sprites/o96/o96.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -43,7 +43,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f133a486-2757-40ac-bb74-028474e269e7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o/o.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"91792fc0-6a9f-4eb2-b109-ee1763673f76","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c10b59dc-231c-4969-b4d8-60b0f8f935cc","path":"sprites/o96/o96.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -60,7 +60,7 @@
     "yorigin": 800,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"o","path":"sprites/o/o.yy",},
+    "parent": {"name":"o96","path":"sprites/o96/o96.yy",},
     "resourceVersion": "1.4",
     "name": "o",
     "tags": [],
@@ -77,7 +77,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o",
+  "name": "o96",
   "tags": [],
   "resourceType": "GMSprite",
 }

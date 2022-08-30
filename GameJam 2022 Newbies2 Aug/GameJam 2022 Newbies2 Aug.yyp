@@ -66,6 +66,7 @@
     {"id":{"name":"Card_LEFT","path":"sprites/Card_LEFT/Card_LEFT.yy",},"order":1,},
     {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},"order":8,},
     {"id":{"name":"oC_RIGHT","path":"objects/oC_RIGHT/oC_RIGHT.yy",},"order":2,},
+    {"id":{"name":"o96","path":"sprites/o96/o96.yy",},"order":11,},
     {"id":{"name":"oCS_DOWN","path":"objects/oCS_DOWN/oCS_DOWN.yy",},"order":4,},
     {"id":{"name":"Grass_TILESET","path":"sprites/Grass_TILESET/Grass_TILESET.yy",},"order":15,},
     {"id":{"name":"Desert_CORNER_D","path":"sprites/Desert_CORNER_D/Desert_CORNER_D.yy",},"order":40,},
