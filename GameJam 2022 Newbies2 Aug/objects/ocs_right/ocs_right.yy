@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Cards",
+    "path": "folders/Objects/Cards.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCS_RIGHT",
