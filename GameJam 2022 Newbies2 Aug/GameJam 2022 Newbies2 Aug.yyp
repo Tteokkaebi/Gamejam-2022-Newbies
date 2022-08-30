@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Sprite95","path":"sprites/Sprite95/Sprite95.yy",},"order":16,},
     {"id":{"name":"Desert_TILESET","path":"sprites/Desert_TILESET/Desert_TILESET.yy",},"order":15,},
     {"id":{"name":"Desert_CORNERC_D","path":"sprites/Desert_CORNERC_D/Desert_CORNERC_D.yy",},"order":43,},
     {"id":{"name":"Desert_BLOCK_C","path":"sprites/Desert_BLOCK_C/Desert_BLOCK_C.yy",},"order":27,},
@@ -106,9 +107,10 @@
     {"id":{"name":"Grass_BLOCK","path":"sprites/Grass_BLOCK/Grass_BLOCK.yy",},"order":5,},
     {"id":{"name":"Desert_2C","path":"sprites/Desert_2C/Desert_2C.yy",},"order":3,},
     {"id":{"name":"oCS_RIGHT","path":"objects/oCS_RIGHT/oCS_RIGHT.yy",},"order":6,},
-    {"id":{"name":"oIDLE","path":"objects/oIDLE/oIDLE.yy",},"order":0,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"Desert_CORNER","path":"sprites/Desert_CORNER/Desert_CORNER.yy",},"order":7,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"order":11,},
+    {"id":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -122,7 +124,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
