@@ -74,7 +74,7 @@
     {"id":{"name":"oC_UP","path":"objects/oC_UP/oC_UP.yy",},"order":3,},
     {"id":{"name":"Dungeon_BLOCKC","path":"sprites/Dungeon_BLOCKC/Dungeon_BLOCKC.yy",},"order":7,},
     {"id":{"name":"oCS_LEFT","path":"objects/oCS_LEFT/oCS_LEFT.yy",},"order":5,},
-    {"id":{"name":"o","path":"sprites/o/o.yy",},"order":10,},
+    {"id":{"name":"Background1","path":"sprites/Background1/Background1.yy",},"order":10,},
     {"id":{"name":"oCS_UP","path":"objects/oCS_UP/oCS_UP.yy",},"order":7,},
     {"id":{"name":"Desert_CORNER_B","path":"sprites/Desert_CORNER_B/Desert_CORNER_B.yy",},"order":38,},
     {"id":{"name":"Desert_PLAT_B","path":"sprites/Desert_PLAT_B/Desert_PLAT_B.yy",},"order":47,},
