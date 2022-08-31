@@ -89,7 +89,7 @@
     "spriteId": {"name":"player_Run","path":"sprites/player_Run/player_Run.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
