@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Dungeon",
-    "path": "folders/Sprites/Dungeon.yy",
+    "path": "folders/Sprites/Tiles/Dungeon.yy",
   },
   "resourceVersion": "1.0",
   "name": "Dungeon_BLOCK2C",

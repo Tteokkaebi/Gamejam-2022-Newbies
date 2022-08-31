@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Desert",
-    "path": "folders/Sprites/Desert.yy",
+    "path": "folders/Sprites/Tiles/Desert.yy",
   },
   "resourceVersion": "1.0",
   "name": "Desert_1C_B",

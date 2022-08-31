@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Grass",
-    "path": "folders/Sprites/Grass.yy",
+    "path": "folders/Sprites/Tiles/Grass.yy",
   },
   "resourceVersion": "1.0",
   "name": "Grass_CORNER",
