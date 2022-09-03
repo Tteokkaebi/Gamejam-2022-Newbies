@@ -51,6 +51,7 @@ y = y + vsp;
 if (!place_meeting (x, y + 1, oBarrier))
 {
 	sprite_index = player_Jump;
+	if (sign(vsp) > 0) image_index = 7 && image_speed = 0; 
 }
 //if sprite is contacting oBarrier, jump anim plays, image speed multiplies fps by 1
 else
