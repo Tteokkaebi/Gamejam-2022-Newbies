@@ -1,100 +1,71 @@
-//var l0C575E1B_0 = instance_place(x + 0, y + 1, oBarrier);
-////inst_id = l0C575E1B_0;
-//if ((l0C575E1B_0 > 0))
-//{
-//	vsp = 0;
-//}
+//PLAYER INPUT
+key_left = keyboard_check(vk_left);
+//produces 1 or 0 if pressing left or not
+key_right = keyboard_check (vk_right);
+//vis a vis key_left
+key_jump = keyboard_check_pressed(vk_up);
+//checks if pressed, not holding
 
-//else
-//{
-//	vsp = vsp-grav;
-//}
-
-//var l7ADB4CA5_0;
-//l7ADB4CA5_0 = keyboard_check(vk_space);
-//if (l7ADB4CA5_0)
-//{
-//	var l0094741F_0 = instance_place(x + 0, y + 1, oBarrier);
-//	inst_id = l0094741F_0;
-//	if ((l0094741F_0 > 0))
-//	{
-//		vsp = vsp+jump_vel;
-//	}
-//}
-
-//var l172A4C6C_0;
-//l172A4C6C_0 = keyboard_check(vk_right);
-//if (l172A4C6C_0)
-//{
-//	hsp = hsp+accel;
-
-//	if(hsp > walk_spd)
-//	{
-//		hsp = walk_spd;
-//	}
-//}
-
-//var l54AD0E78_0;
-//l54AD0E78_0 = keyboard_check(vk_left);
-//if (l54AD0E78_0)
-//{
-//	hsp = hsp-accel;
-
-//	if(hsp < -walk_spd)
-//	{
-//		hsp = -walk_spd;
-//	}
-//}
-
-if(keyboard_check(vk_right)){
-hsp = hsp+accel
-if(hsp > walk_spd){
-hsp = walk_spd
-}
-}
-if(keyboard_check(vk_left)){
-hsp = hsp-accel
-if(hsp < -walk_spd){
-hsp = -walk_spd
-}
-}
-
-if(vsp <7){
-vsp += grav
-}
-
-if(keyboard_check(vk_space)){
-	if(place_meeting(x,y+1,oBarrier)){
-vsp = -15
-}
-}
-while place_meeting(x+hsp,y,oBarrier){
-hsp -= sign(hsp)
-}
-while place_meeting(x,y+vsp,oBarrier){
-vsp -= sign(vsp)
-}
-while place_meeting(x+vsp,y+vsp,oBarrier){
-hsp -= sign(hsp)
-vsp -= sign(vsp)
-}
-hsp = hsp*drag
-
-x += hsp
-y += vsp
-
-if(!(hsp == 0))
+//CALCULATE MOVEMENT
+var move = key_right - key_left;
+//produces 1 if right, -1 if left
+hsp = move * walksp;
+//produces 1, 0, -1 multiplied by constant 
+vsp = vsp + grv;
+//y-position changes according to gravity
+if (place_meeting(x, y + 1, oBarrier)) && (key_jump)
 {
-	if(hsp > 0)
-	{
-		facing = 1;
-	}
+	vsp = -5;
+}
+//if player is touching barrier and key_jump is true, increase vsp to 5
 
+//HORIZONTAL COLLISION
+if (place_meeting (x + hsp, y, oBarrier))
+{
+	while (!place_meeting(x + sign(hsp), y, oBarrier))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+//if object is approaching a barrier, before the object reaches the barrier, decrease the distance b/w
+//the barrier and object by one pixel. upon reaching barrier, stop horizontal movement
+x = x + hsp;
+//changes x-position as hsp is added
+
+//VERTICAL COLLISION
+if (place_meeting (x, y + vsp, oBarrier))
+{
+	while (!place_meeting(x, y + sign(vsp), oBarrier))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+//if object is approaching a barrier, before the object reaches the barrier, decrease the distance b/w
+//the barrier and object by one pixel. upon reaching barrier, stop vertical movement
+y = y + vsp;
+//changes y-position as vsp is added
+
+//ANIMATION
+if (!place_meeting (x, y + 1, oBarrier))
+{
+	sprite_index = player_Jump;
+}
+//if sprite is contacting oBarrier, jump anim plays, image speed multiplies fps by 1
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = player_Idle;
+	}
 	else
 	{
-		if(hsp < 0)
-		{
-			facing = -1;
-		}
+		sprite_index = player_Run;
 	}
 }
+//elif hsp is 0 play idle anim, if not, play run anim
+
+if (hsp != 0) image_xscale = sign(hsp);
+//returns x-sizing according to hsp
