@@ -3,7 +3,7 @@
     "name": "Sprite95",
     "path": "sprites/Sprite95/Sprite95.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": false,
   "managed": true,
   "spriteMaskId": null,

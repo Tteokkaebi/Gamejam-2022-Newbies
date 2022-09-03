@@ -24,7 +24,7 @@ if (place_meeting(x, y + 1, oBarrier)) && (key_jump)
 //HORIZONTAL COLLISION
 if (place_meeting (x + hsp, y, oBarrier))
 {
-	while (!place_meeting(x + sign(hsp), y, oBarrier))
+	while (!place_meeting(x + 2*sign(hsp), y, oBarrier))
 	{
 		x = x + sign(hsp);
 	}
@@ -38,7 +38,7 @@ x = x + hsp;
 //VERTICAL COLLISION
 if (place_meeting (x, y + vsp, oBarrier))
 {
-	while (!place_meeting(x, y + sign(vsp), oBarrier))
+	while (!place_meeting(x, y + 2*sign(vsp), oBarrier))
 	{
 		y = y + sign(vsp);
 	}
