@@ -6,6 +6,7 @@ key_right = keyboard_check (vk_right) * sign(oC_RIGHT.count);
 //vis a vis key_left
 key_jump = keyboard_check_pressed(vk_up) * sign(oC_UP.count);
 //checks if pressed, not holding
+key_down = keyboard_check(vk_down) * sign(oC_DOWN.count);
 
 
 //CALCULATE MOVEMENT
@@ -53,7 +54,11 @@ y = y + vsp;
 if (!place_meeting (x, y + 1, oBarrier))
 {
 	sprite_index = player_Jump;
-	if (sign(vsp) > 0) image_index = 7 && image_speed = 0; 
+	if (sign(vsp) > 0) 
+	{
+		sprite_index = player_Fall; 
+		image_speed = 0;
+	}
 }
 //if sprite is contacting oBarrier, jump anim plays, image speed multiplies fps by 1
 else
@@ -69,6 +74,10 @@ else
 	}
 }
 //elif hsp is 0 play idle anim, if not, play run anim
+if (key_down)
+{
+	sprite_index = player_Duck;
+}
 
 if (hsp != 0) image_xscale = sign(hsp);
 //returns x-sizing according to hsp
