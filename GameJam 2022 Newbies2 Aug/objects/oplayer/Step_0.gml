@@ -53,7 +53,7 @@ y = y + vsp;
 //ANIMATION
 if (!place_meeting (x, y + 1, oBarrier))
 {
-	sprite_index = player_Jump;
+	sprite_index = player_Jump2;
 	if (sign(vsp) > 0) 
 	{
 		sprite_index = player_Fall; 
