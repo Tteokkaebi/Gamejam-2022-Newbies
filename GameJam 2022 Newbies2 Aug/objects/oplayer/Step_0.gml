@@ -17,7 +17,7 @@ vsp = vsp + grv;
 //y-position changes according to gravity
 if (place_meeting(x, y + 1, oBarrier)) && (key_jump)
 {
-	vsp = -5;
+	vsp = -7;
 }
 //if player is touching barrier and key_jump is true, increase vsp to 5
 
