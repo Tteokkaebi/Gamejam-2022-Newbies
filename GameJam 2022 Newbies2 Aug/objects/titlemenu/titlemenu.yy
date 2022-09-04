@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "MenuBG",
-    "path": "sprites/MenuBG/MenuBG.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -23,16 +20,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu",
-    "path": "folders/Sprites/Menu.yy",
+    "name": "Title",
+    "path": "folders/Sprites/Title.yy",
   },
   "resourceVersion": "1.0",
-  "name": "MainMenu",
+  "name": "TitleMenu",
   "tags": [],
   "resourceType": "GMObject",
 }

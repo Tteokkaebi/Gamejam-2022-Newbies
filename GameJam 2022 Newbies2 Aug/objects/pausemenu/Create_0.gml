@@ -1,8 +1,10 @@
-width = 200
-height = 100
+width = 500
+height = 300
 
 op_border = 8
-op_space = 16
+op_space = 16*4
+
+pos = 0
 
 option[0] = "Start Game"
 option[1] = "Options"
