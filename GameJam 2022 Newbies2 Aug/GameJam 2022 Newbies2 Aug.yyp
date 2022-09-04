@@ -83,6 +83,7 @@
     {"id":{"name":"oCS_DOWN","path":"objects/oCS_DOWN/oCS_DOWN.yy",},"order":4,},
     {"id":{"name":"Grass_TILESET","path":"sprites/Grass_TILESET/Grass_TILESET.yy",},"order":15,},
     {"id":{"name":"Desert_CORNER_D","path":"sprites/Desert_CORNER_D/Desert_CORNER_D.yy",},"order":40,},
+    {"id":{"name":"Familiar___Puff","path":"sounds/Familiar___Puff/Familiar___Puff.yy",},"order":0,},
     {"id":{"name":"Desert_2C_D","path":"sprites/Desert_2C_D/Desert_2C_D.yy",},"order":21,},
     {"id":{"name":"Grass_CORNER","path":"sprites/Grass_CORNER/Grass_CORNER.yy",},"order":9,},
     {"id":{"name":"oC_UP","path":"objects/oC_UP/oC_UP.yy",},"order":3,},
