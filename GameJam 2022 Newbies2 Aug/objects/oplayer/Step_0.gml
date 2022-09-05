@@ -67,6 +67,8 @@ else
 	if (hsp == 0)
 	{
 		sprite_index = player_Idle;
+		mask_index = player_Idle;
+		
 	}
 	else
 	{
@@ -77,6 +79,7 @@ else
 if (key_down)
 {
 	sprite_index = player_Duck;
+	mask_index = player_Duck;
 }
 
 if (hsp != 0) image_xscale = sign(hsp);

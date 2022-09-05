@@ -142,6 +142,7 @@
     {"id":{"name":"Desert_BLOCKC_C","path":"sprites/Desert_BLOCKC_C/Desert_BLOCKC_C.yy",},"order":33,},
     {"id":{"name":"Dungeon_SQUARE","path":"sprites/Dungeon_SQUARE/Dungeon_SQUARE.yy",},"order":14,},
     {"id":{"name":"Desert_2C_B","path":"sprites/Desert_2C_B/Desert_2C_B.yy",},"order":19,},
+    {"id":{"name":"player_DuckCollision","path":"sprites/player_DuckCollision/player_DuckCollision.yy",},"order":9,},
     {"id":{"name":"Grass_BLOCK","path":"sprites/Grass_BLOCK/Grass_BLOCK.yy",},"order":5,},
     {"id":{"name":"Desert_2C","path":"sprites/Desert_2C/Desert_2C.yy",},"order":3,},
     {"id":{"name":"oCS_RIGHT","path":"objects/oCS_RIGHT/oCS_RIGHT.yy",},"order":6,},
