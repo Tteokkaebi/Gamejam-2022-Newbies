@@ -20,9 +20,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oC_RIGHT","path":"objects/oC_RIGHT/oC_RIGHT.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":187.0,"y":462.0,"resourceVersion":"1.0","name":"inst_676B0EF0","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[
-            {"propertyId":{"name":"walk_spd","path":"objects/oPlayer/oPlayer.yy",},"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":126.0,"y":255.5,"resourceVersion":"1.0","name":"inst_5A2AE19C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCS_DOWN","path":"objects/oCS_DOWN/oCS_DOWN.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1019.0,"y":312.0,"resourceVersion":"1.0","name":"inst_39634506","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCS_LEFT","path":"objects/oCS_LEFT/oCS_LEFT.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":656.0,"y":189.0,"resourceVersion":"1.0","name":"inst_A761A9E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCS_RIGHT","path":"objects/oCS_RIGHT/oCS_RIGHT.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":95.0,"y":255.0,"resourceVersion":"1.0","name":"inst_7ED63629","tags":[],"resourceType":"GMRInstance",},
@@ -47,6 +44,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":224.0,"resourceVersion":"1.0","name":"inst_7B049B18","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":224.0,"resourceVersion":"1.0","name":"inst_27F0E02","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oSpikes","path":"objects/oSpikes/oSpikes.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":400.0,"y":410.0,"resourceVersion":"1.0","name":"inst_1E797220","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oRespawn","path":"objects/oRespawn/oRespawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":256.0,"resourceVersion":"1.0","name":"inst_4F57FD4E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Tiles_GRASS","path":"tilesets/Tiles_GRASS/Tiles_GRASS.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":47,"SerialiseHeight":47,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -262,7 +260,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_5A2AE19C","path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"inst_39634506","path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"inst_A761A9E","path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"inst_7ED63629","path":"rooms/TestLevel/TestLevel.yy",},
@@ -292,6 +289,7 @@
     {"name":"inst_7B049B18","path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"inst_27F0E02","path":"rooms/TestLevel/TestLevel.yy",},
     {"name":"inst_1E797220","path":"rooms/TestLevel/TestLevel.yy",},
+    {"name":"inst_4F57FD4E","path":"rooms/TestLevel/TestLevel.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

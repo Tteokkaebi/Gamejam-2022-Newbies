@@ -126,6 +126,7 @@
     {"id":{"name":"Desert_EDGE_C","path":"sprites/Desert_EDGE_C/Desert_EDGE_C.yy",},"order":45,},
     {"id":{"name":"Desert_BLOCKC","path":"sprites/Desert_BLOCKC/Desert_BLOCKC.yy",},"order":10,},
     {"id":{"name":"sfx_Click","path":"sounds/sfx_Click/sfx_Click.yy",},"order":3,},
+    {"id":{"name":"oRespawn","path":"objects/oRespawn/oRespawn.yy",},"order":2,},
     {"id":{"name":"Tiles_SPIKES","path":"tilesets/Tiles_SPIKES/Tiles_SPIKES.yy",},"order":3,},
     {"id":{"name":"Dungeon_CORNER","path":"sprites/Dungeon_CORNER/Dungeon_CORNER.yy",},"order":10,},
     {"id":{"name":"Title_PLAY","path":"sprites/Title_PLAY/Title_PLAY.yy",},"order":1,},
