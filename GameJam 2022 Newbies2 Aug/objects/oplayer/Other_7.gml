@@ -4,11 +4,6 @@ if (sprite_index = player_Duck)
 	image_index = image_number - 1;
 }
 
-//if (sprite_index = player_Death)
-//{
-//	image_speed = 0;
-//	image_index = image_number - 1;
-//}
 
 
 

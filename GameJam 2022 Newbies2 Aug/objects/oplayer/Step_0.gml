@@ -83,10 +83,5 @@ if (key_down)
 	mask_index = player_Duck;
 }
 
-//if (oC_RIGHT.count = 0 && oC_LEFT.count = 0 && oC_UP.count = 0 && oC_DOWN.count = 0)
-//{
-//	sprite_index = player_Death;
-//}
-
 if (hsp != 0) image_xscale = sign(hsp);
 //returns x-sizing according to hsp

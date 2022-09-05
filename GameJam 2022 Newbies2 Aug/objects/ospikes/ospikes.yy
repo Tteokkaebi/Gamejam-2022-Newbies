@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "Title_OPTIONS",
-    "path": "sprites/Title_OPTIONS/Title_OPTIONS.yy",
+    "name": "Spikes",
+    "path": "sprites/Spikes/Spikes.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -25,11 +25,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "oTitle",
-    "path": "folders/Objects/oTitle.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oOPTIONS",
+  "name": "oSpikes",
   "tags": [],
   "resourceType": "GMObject",
 }
