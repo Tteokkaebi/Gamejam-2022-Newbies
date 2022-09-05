@@ -9,6 +9,7 @@ key_jump = keyboard_check_pressed(vk_up) * sign(oC_UP.count);
 key_down = keyboard_check(vk_down) * sign(oC_DOWN.count);
 
 
+
 //CALCULATE MOVEMENT
 var move = key_right - key_left;
 //produces 1 if right, -1 if left
@@ -81,6 +82,11 @@ if (key_down)
 	sprite_index = player_Duck;
 	mask_index = player_Duck;
 }
+
+//if (oC_RIGHT.count = 0 && oC_LEFT.count = 0 && oC_UP.count = 0 && oC_DOWN.count = 0)
+//{
+//	sprite_index = player_Death;
+//}
 
 if (hsp != 0) image_xscale = sign(hsp);
 //returns x-sizing according to hsp
