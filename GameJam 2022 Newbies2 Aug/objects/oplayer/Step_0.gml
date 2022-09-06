@@ -8,6 +8,7 @@ key_jump = keyboard_check_pressed(vk_up) * sign(oC_UP.count);
 //checks if pressed, not holding
 key_down = keyboard_check(vk_down) * sign(oC_DOWN.count);
 
+grounded =	place_meeting(x, y + 1, oBarrier)
 
 
 //CALCULATE MOVEMENT
@@ -85,6 +86,7 @@ if (key_down)
 	sprite_index = player_Duck;
 	mask_index = player_Duck;
 }
+
 
 if (hsp != 0) image_xscale = sign(hsp);
 //returns x-sizing according to hsp

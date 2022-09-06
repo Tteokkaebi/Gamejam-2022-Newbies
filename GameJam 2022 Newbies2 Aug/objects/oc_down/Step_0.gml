@@ -3,9 +3,10 @@
 
 if keyboard_check_released(vk_down)
 {
-	if count > 0{
-		
-    count -= 1
+		if (oPlayer.grounded = true){
+		if oC_DOWN.count > 0{ 
+	   oC_DOWN.count -= 1
+	   }
 	}
 }
 
