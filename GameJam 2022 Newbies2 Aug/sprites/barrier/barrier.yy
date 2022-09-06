@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GameJam 2022 Newbies2 Aug",
-    "path": "GameJam 2022 Newbies2 Aug.yyp",
+    "name": "Timelines",
+    "path": "folders/Timelines.yy",
   },
   "resourceVersion": "1.0",
   "name": "Barrier",

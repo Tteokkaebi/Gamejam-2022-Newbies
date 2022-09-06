@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"Barrier","path":"sprites/Barrier/Barrier.yy",},"order":16,},
+    {"id":{"name":"Barrier","path":"sprites/Barrier/Barrier.yy",},"order":0,},
     {"id":{"name":"Desert_TILESET","path":"sprites/Desert_TILESET/Desert_TILESET.yy",},"order":15,},
     {"id":{"name":"Desert_CORNERC_D","path":"sprites/Desert_CORNERC_D/Desert_CORNERC_D.yy",},"order":43,},
     {"id":{"name":"Desert_BLOCK_C","path":"sprites/Desert_BLOCK_C/Desert_BLOCK_C.yy",},"order":27,},
