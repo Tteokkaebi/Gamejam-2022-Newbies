@@ -170,10 +170,10 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
+    {"roomId":{"name":"Grass","path":"rooms/Grass/Grass.yy",},},
     {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
     {"roomId":{"name":"Dungeon","path":"rooms/Dungeon/Dungeon.yy",},},
     {"roomId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},},
-    {"roomId":{"name":"Grass","path":"rooms/Grass/Grass.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
