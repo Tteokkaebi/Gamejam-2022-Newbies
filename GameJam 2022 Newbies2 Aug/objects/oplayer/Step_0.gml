@@ -23,7 +23,7 @@ if (place_meeting(x, y + 1, oBarrier)) && (key_jump)
 	 if oC_UP.count > 0{ 
 	   oC_UP.count -= 1
 	   }
-	vsp = -7;
+	vsp -= jump_vel;
 }
 //if player is touching barrier and key_jump is true, increase vsp to 5
 

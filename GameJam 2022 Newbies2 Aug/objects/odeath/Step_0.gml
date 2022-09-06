@@ -31,5 +31,6 @@ if (done == 0)
 
 if (done == 1)
 {
-	room_restart()
+	instance_create_layer(global.respawnX,global.respawnY , layer, oRespawn);
+	instance_destroy()
 }
