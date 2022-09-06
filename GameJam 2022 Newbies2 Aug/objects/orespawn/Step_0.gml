@@ -1,8 +1,9 @@
 
 if (image_index >= 7)
 {
-
 	instance_create_layer(x, y, layer, oPlayer);
+	instance_destroy(oCamera);
+	instance_create_layer(x,y,layer,oCamera);
 	instance_destroy();
 	
 		for(var i = 0; i < 4; i++){
