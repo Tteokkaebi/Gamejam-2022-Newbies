@@ -24,6 +24,7 @@ if (place_meeting(x, y + 1, oBarrier)) && (key_jump)
 	   oC_UP.count -= 1
 	   }
 	vsp -= jump_vel;
+	audio_play_sound(sfx_Jump,9,false)
 }
 //if player is touching barrier and key_jump is true, increase vsp to 5
 
