@@ -5,7 +5,7 @@
   "option_windows_company_info": "Summer Ant Games",
   "option_windows_product_info": "Puff. Play The Cards You're Dealt",
   "option_windows_copyright_info": "",
-  "option_windows_description_info": "Puzzle Platformer made in GameMaker",
+  "option_windows_description_info": "Puzzle Platformer made in GameMaker for Game Jam Newbies 2022 2 ",
   "option_windows_display_cursor": true,
   "option_windows_icon": "icons/icon.ico",
   "option_windows_save_location": 0,
