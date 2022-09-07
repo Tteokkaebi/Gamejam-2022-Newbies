@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "question_001.ogg",
-  "duration": 0.49068,
+  "soundFile": "sfx_respawn.mp3",
+  "duration": 0.576,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "question_001",
+  "name": "sfx_Respawn",
   "tags": [],
   "resourceType": "GMSound",
 }
