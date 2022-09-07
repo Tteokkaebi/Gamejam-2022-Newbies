@@ -13,22 +13,22 @@ if (image_index >= 7)
 			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _U >0){
 				oC_UP.count += sign(_U)
 				_U --
-				max(_U,0)
+				clamp(_U,0,global.upCards)
 			}
 			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _R >0){
 				oC_RIGHT.count += sign(_R)
 				_R --
-				max(_R,0)
+				clamp(_R,0,global.rightCards)
 			}
 			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _L >0){
 				oC_LEFT.count += sign(_L)
 				_L--
-				max(_L,0)
+				clamp(_L,0,global.leftCards)
 			}
 			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _D > 0){
 				oC_DOWN.count += sign(_D)
 				_D--
-				max(_D,0)
+				clamp(_D,0,global.downCards)
 			}
 	}
 	
