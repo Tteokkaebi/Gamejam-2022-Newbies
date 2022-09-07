@@ -8,8 +8,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "SFX",
-    "path": "audiogroups/SFX",
+    "name": "audiogroup_SFX",
+    "path": "audiogroups/audiogroup_SFX",
   },
   "soundFile": "sfx_goldpickup.ogg",
   "duration": 0.49068,

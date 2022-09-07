@@ -8,8 +8,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "Music",
-    "path": "audiogroups/Music",
+    "name": "audiogroup_music",
+    "path": "audiogroups/audiogroup_music",
   },
   "soundFile": "familiar_forest___final_puff_ost.ogg",
   "duration": 97.85095,

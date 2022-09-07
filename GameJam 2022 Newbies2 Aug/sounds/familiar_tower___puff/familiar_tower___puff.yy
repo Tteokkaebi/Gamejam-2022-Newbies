@@ -8,8 +8,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "Music",
-    "path": "audiogroups/Music",
+    "name": "audiogroup_music",
+    "path": "audiogroups/audiogroup_music",
   },
   "soundFile": "familiar_tower___puff.ogg",
   "duration": 95.889435,
