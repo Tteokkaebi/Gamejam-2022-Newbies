@@ -202,7 +202,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Tower_8","path":"rooms/Tower_8/Tower_8.yy",},},
     {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Grass_1","path":"rooms/Grass_1/Grass_1.yy",},},
     {"roomId":{"name":"Grass_2","path":"rooms/Grass_2/Grass_2.yy",},},
@@ -211,6 +210,7 @@
     {"roomId":{"name":"Desert_5","path":"rooms/Desert_5/Desert_5.yy",},},
     {"roomId":{"name":"Desert_6","path":"rooms/Desert_6/Desert_6.yy",},},
     {"roomId":{"name":"Tower_7","path":"rooms/Tower_7/Tower_7.yy",},},
+    {"roomId":{"name":"Tower_8","path":"rooms/Tower_8/Tower_8.yy",},},
     {"roomId":{"name":"Tower9","path":"rooms/Tower9/Tower9.yy",},},
     {"roomId":{"name":"TheEND","path":"rooms/TheEND/TheEND.yy",},},
     {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},

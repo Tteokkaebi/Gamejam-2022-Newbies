@@ -151,6 +151,7 @@
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":47.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},"frozen":false,"ignore":false,"inheritItemSettings":true,"x":0.0,"y":1472.0,"resourceVersion":"1.0","name":"inst_360E6BFE","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_GOLD","path":"objects/o_GOLD/o_GOLD.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":928.0,"resourceVersion":"1.0","name":"inst_2227E735","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oD1","path":"objects/oD1/oD1.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},"frozen":false,"ignore":false,"inheritItemSettings":true,"x":1468.0,"y":1392.0,"resourceVersion":"1.0","name":"inst_1AD801D4","tags":[],"resourceType":"GMRInstance",},
@@ -337,6 +338,7 @@
     {"name":"inst_209B35AD","path":"rooms/Desert_5/Desert_5.yy",},
     {"name":"inst_360E6BFE","path":"rooms/Desert_5/Desert_5.yy",},
     {"name":"inst_1AD801D4","path":"rooms/Desert_5/Desert_5.yy",},
+    {"name":"inst_2227E735","path":"rooms/Desert_5/Desert_5.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,

@@ -74,6 +74,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oNL","path":"objects/oNL/oNL.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":1360.0,"resourceVersion":"1.0","name":"inst_2E4FA083","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oRespawn","path":"objects/oRespawn/oRespawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":672.0,"resourceVersion":"1.0","name":"inst_7935B73","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":576.0,"resourceVersion":"1.0","name":"inst_566CA37B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_GOLD","path":"objects/o_GOLD/o_GOLD.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1104.0,"y":513.0,"resourceVersion":"1.0","name":"inst_2CD48C10","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Tiles_DESERT","path":"tilesets/Tiles_DESERT/Tiles_DESERT.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":47,"SerialiseHeight":47,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -354,6 +355,7 @@
     {"name":"inst_118BE0E9","path":"rooms/Desert_6/Desert_6.yy",},
     {"name":"inst_360E6BFE","path":"rooms/Desert_6/Desert_6.yy",},
     {"name":"inst_1AD801D4","path":"rooms/Desert_6/Desert_6.yy",},
+    {"name":"inst_2CD48C10","path":"rooms/Desert_6/Desert_6.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,

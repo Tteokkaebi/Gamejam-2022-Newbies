@@ -153,6 +153,7 @@
 ],},"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Tiles_1","tags":[],"resourceType":"GMRTileLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oD1","path":"objects/oD1/oD1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1468.0,"y":1392.0,"resourceVersion":"1.0","name":"inst_565E7E82","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_GOLD","path":"objects/o_GOLD/o_GOLD.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":608.0,"resourceVersion":"1.0","name":"inst_507EC3D5","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_3","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oC_DOWN","path":"objects/oC_DOWN/oC_DOWN.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":448.0,"resourceVersion":"1.0","name":"inst_3252B05","tags":[],"resourceType":"GMRInstance",},
@@ -361,6 +362,7 @@
     {"name":"inst_209B35AD","path":"rooms/Desert_4/Desert_4.yy",},
     {"name":"inst_360E6BFE","path":"rooms/Desert_4/Desert_4.yy",},
     {"name":"inst_1AD801D4","path":"rooms/Desert_4/Desert_4.yy",},
+    {"name":"inst_507EC3D5","path":"rooms/Desert_4/Desert_4.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
