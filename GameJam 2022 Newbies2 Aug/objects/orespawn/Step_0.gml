@@ -11,15 +11,15 @@ if (image_index >= 7)
 	_R = global.rightCards
 	
 	while((oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count < global.roomHandSize && (_R + _L +_U + _D) >0)){
-			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _R >0){
-			oC_RIGHT.count += sign(_R)
-			_R --
-			max(_R,0)
-			}
 			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _U >0){
-				oC_UP.count += sign(_U)
-				_U --
-				max(_U,0)
+			oC_UP.count += sign(_U)
+			_U --
+			max(_U,0)
+			}
+			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _R >0){
+				oC_RIGHT.count += sign(_R)
+				_R --
+				max(_R,0)
 			}
 			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _L >0){
 				oC_LEFT.count += sign(_L)
