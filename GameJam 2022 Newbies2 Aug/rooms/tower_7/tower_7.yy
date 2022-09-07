@@ -209,6 +209,7 @@
   "creationCodeFile": "${project_dir}/rooms/Tower/RoomCreationCode.gml",
   "inheritCode": true,
   "instanceCreationOrder": [
+    {"name":"Tower_7","path":"rooms/Tower_7/Tower_7.yy",},
     {"name":"inst_5DFCF7AC","path":"rooms/Tower_7/Tower_7.yy",},
     {"name":"inst_60CACBCF","path":"rooms/Tower_7/Tower_7.yy",},
     {"name":"inst_1F665B9D","path":"rooms/Tower_7/Tower_7.yy",},

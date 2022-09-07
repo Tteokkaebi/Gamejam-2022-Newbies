@@ -5,37 +5,31 @@ if (image_index >= 7)
 	instance_destroy(oCamera);
 	instance_create_layer(x,y,layer,oCamera);
 	instance_destroy();
+	_U = global.rightCards
+	_D = global.downCards
+	_L = global.leftCards
+	_R = global.rightCards
 	
-		for(var i = 0; i < 4; i++){
-		if i == 0{
-			peepee = global.rightCards
-			while((oC_DOWN.count + oC_LEFT.count + oC_RIGHT.count + oC_UP.count + 1 <= oPlayer.handSize) && peepee > 0){
-				oC_RIGHT.count ++
-				peepee --
+	while((oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count < global.roomHandSize && (_R + _L +_U + _D) >0)){
+			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _U >0){
+			oC_UP.count += sign(_U)
+			_U --
+			max(_U,0)
 			}
-		}
-		if i == 1{
-			peepee = global.upCards
-			while((oC_DOWN.count + oC_LEFT.count + oC_RIGHT.count + oC_UP.count + 1 <= oPlayer.handSize) && peepee > 0){
-				oC_UP.count ++
-				peepee --
+			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _R >0){
+				oC_RIGHT.count += sign(_R)
+				_R --
+				max(_R,0)
 			}
-		}
-		if i == 2{
-			peepee = global.leftCards
-			while((oC_DOWN.count + oC_LEFT.count + oC_RIGHT.count + oC_UP.count + 1 <= oPlayer.handSize) && peepee > 0){
-				oC_LEFT.count ++
-				peepee --
+			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _L >0){
+				oC_LEFT.count += sign(_L)
+				_L--
+				max(_L,0)
 			}
-		}
-		if i == 3{
-			peepee = global.downCards
-			while((oC_DOWN.count + oC_LEFT.count + oC_RIGHT.count + oC_UP.count + 1 <= oPlayer.handSize) && peepee > 0){
-				oC_DOWN.count ++
-				peepee --
+			if(oC_UP.count + oC_DOWN.count + oC_LEFT.count + oC_UP.count<global.roomHandSize && _D > 0){
+				oC_DOWN.count += sign(_D)
+				_D--
+				max(_D,0)
 			}
-		}
 	}
 }
-
-
