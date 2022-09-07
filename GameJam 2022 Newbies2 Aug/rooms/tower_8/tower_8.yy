@@ -268,6 +268,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"Tower_8","path":"rooms/Tower_8/Tower_8.yy",},
+    {"name":"inst_63B579EE","path":"rooms/Tower_8/Tower_8.yy",},
     {"name":"inst_EB0D296","path":"rooms/Tower_8/Tower_8.yy",},
     {"name":"inst_54FB3EA0","path":"rooms/Tower_8/Tower_8.yy",},
     {"name":"inst_5B3989C4","path":"rooms/Tower_8/Tower_8.yy",},
@@ -307,7 +308,6 @@
     {"name":"inst_5B21C90C","path":"rooms/Tower_8/Tower_8.yy",},
     {"name":"inst_1FFE042F","path":"rooms/Tower_8/Tower_8.yy",},
     {"name":"inst_6A02B6A1","path":"rooms/Tower_8/Tower_8.yy",},
-    {"name":"inst_63B579EE","path":"rooms/Tower_8/Tower_8.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
