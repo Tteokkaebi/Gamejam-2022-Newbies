@@ -74,6 +74,7 @@
     {"id":{"name":"player_Duck","path":"sprites/player_Duck/player_Duck.yy",},"order":1,},
     {"id":{"name":"Tower_7","path":"rooms/Tower_7/Tower_7.yy",},"order":4,},
     {"id":{"name":"Grass_PLAT","path":"sprites/Grass_PLAT/Grass_PLAT.yy",},"order":13,},
+    {"id":{"name":"oGoldCardCredits","path":"objects/oGoldCardCredits/oGoldCardCredits.yy",},"order":10,},
     {"id":{"name":"o_GOLD","path":"objects/o_GOLD/o_GOLD.yy",},"order":8,},
     {"id":{"name":"Door_G1","path":"sprites/Door_G1/Door_G1.yy",},"order":2,},
     {"id":{"name":"Desert_BLOCK_D","path":"sprites/Desert_BLOCK_D/Desert_BLOCK_D.yy",},"order":28,},
