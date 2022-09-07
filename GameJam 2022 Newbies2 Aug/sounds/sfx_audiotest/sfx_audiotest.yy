@@ -8,8 +8,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "SFX",
-    "path": "audiogroups/SFX",
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_audiotest.ogg",
   "duration": 0.5,

@@ -20,7 +20,6 @@
     {"id":{"name":"Desert_2C_C","path":"sprites/Desert_2C_C/Desert_2C_C.yy",},"order":20,},
     {"id":{"name":"Title_OPTIONS","path":"sprites/Title_OPTIONS/Title_OPTIONS.yy",},"order":0,},
     {"id":{"name":"BG2","path":"sprites/BG2/BG2.yy",},"order":1,},
-    {"id":{"name":"oVolume","path":"objects/oVolume/oVolume.yy",},"order":8,},
     {"id":{"name":"Tiles_DUNGEON","path":"tilesets/Tiles_DUNGEON/Tiles_DUNGEON.yy",},"order":2,},
     {"id":{"name":"Card_DOWN_SMALL","path":"sprites/Card_DOWN_SMALL/Card_DOWN_SMALL.yy",},"order":5,},
     {"id":{"name":"oNL","path":"objects/oNL/oNL.yy",},"order":1,},
@@ -108,7 +107,7 @@
     {"id":{"name":"player_Run","path":"sprites/player_Run/player_Run.yy",},"order":4,},
     {"id":{"name":"oDeath","path":"objects/oDeath/oDeath.yy",},"order":1,},
     {"id":{"name":"oT1","path":"objects/oT1/oT1.yy",},"order":5,},
-    {"id":{"name":"TitleMenu","path":"objects/TitleMenu/TitleMenu.yy",},"order":7,},
+    {"id":{"name":"TitleMenu","path":"objects/TitleMenu/TitleMenu.yy",},"order":4,},
     {"id":{"name":"player_Jump2","path":"sprites/player_Jump2/player_Jump2.yy",},"order":8,},
     {"id":{"name":"Card_LEFT","path":"sprites/Card_LEFT/Card_LEFT.yy",},"order":1,},
     {"id":{"name":"sfx_Jump","path":"sounds/sfx_Jump/sfx_Jump.yy",},"order":6,},
@@ -133,7 +132,7 @@
     {"id":{"name":"Desert_PLAT_B","path":"sprites/Desert_PLAT_B/Desert_PLAT_B.yy",},"order":47,},
     {"id":{"name":"Desert_EDGE","path":"sprites/Desert_EDGE/Desert_EDGE.yy",},"order":12,},
     {"id":{"name":"Test","path":"scripts/Test/Test.yy",},"order":14,},
-    {"id":{"name":"OptionsMenu","path":"objects/OptionsMenu/OptionsMenu.yy",},"order":6,},
+    {"id":{"name":"PauseMenu","path":"objects/PauseMenu/PauseMenu.yy",},"order":1,},
     {"id":{"name":"oOPTIONS","path":"objects/oOPTIONS/oOPTIONS.yy",},"order":0,},
     {"id":{"name":"Card_GOLDEN","path":"sprites/Card_GOLDEN/Card_GOLDEN.yy",},"order":16,},
     {"id":{"name":"player_Dash","path":"sprites/player_Dash/player_Dash.yy",},"order":0,},
@@ -201,7 +200,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
-<<<<<<< Updated upstream
     {"roomId":{"name":"Grass_1","path":"rooms/Grass_1/Grass_1.yy",},},
     {"roomId":{"name":"Grass_2","path":"rooms/Grass_2/Grass_2.yy",},},
     {"roomId":{"name":"Grass_3","path":"rooms/Grass_3/Grass_3.yy",},},
@@ -212,12 +210,9 @@
     {"roomId":{"name":"Tower_8","path":"rooms/Tower_8/Tower_8.yy",},},
     {"roomId":{"name":"Tower9","path":"rooms/Tower9/Tower9.yy",},},
     {"roomId":{"name":"Tower","path":"rooms/Tower/Tower.yy",},},
-=======
-    {"roomId":{"name":"Dungeon","path":"rooms/Dungeon/Dungeon.yy",},},
-    {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
->>>>>>> Stashed changes
     {"roomId":{"name":"Grass","path":"rooms/Grass/Grass.yy",},},
     {"roomId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},},
+    {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -250,8 +245,8 @@
     {"folderPath":"folders/Sprites/Menu.yy","order":7,"resourceVersion":"1.0","name":"Menu","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Title.yy","order":10,"resourceVersion":"1.0","name":"Title","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/oTitle.yy","order":2,"resourceVersion":"1.0","name":"oTitle","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/INTERACTIBLE TILES.yy","order":4,"resourceVersion":"1.0","name":"INTERACTIBLE TILES","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Doors.yy","order":5,"resourceVersion":"1.0","name":"Doors","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/INTERACTIBLE TILES.yy","order":7,"resourceVersion":"1.0","name":"INTERACTIBLE TILES","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Doors.yy","order":8,"resourceVersion":"1.0","name":"Doors","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Doors.yy","order":15,"resourceVersion":"1.0","name":"Doors","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/GRASS LVL 1-3.yy","order":6,"resourceVersion":"1.0","name":"GRASS LVL 1-3","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/DESERT LVL 4-6.yy","order":7,"resourceVersion":"1.0","name":"DESERT LVL 4-6","tags":[],"resourceType":"GMFolder",},
@@ -259,8 +254,6 @@
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
-    {"targets":-17179869313,"resourceVersion":"1.3","name":"SFX","resourceType":"GMAudioGroup",},
-    {"targets":-17179869313,"resourceVersion":"1.3","name":"Music","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
     {"isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},

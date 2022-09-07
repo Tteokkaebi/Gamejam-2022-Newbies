@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Title",
+    "path": "folders/Sprites/Title.yy",
   },
   "resourceVersion": "1.0",
   "name": "TitleMenu",

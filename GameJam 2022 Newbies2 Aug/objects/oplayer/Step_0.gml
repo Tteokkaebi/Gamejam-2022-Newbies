@@ -1,12 +1,12 @@
 
 //PLAYER INPUT
-key_left = keyboard_check(vk_left) * sign(oC_LEFT.tempCount)
+key_left = keyboard_check(vk_left) * sign(oC_LEFT.count);
 //produces 1 or 0 if pressing left or not
-key_right = keyboard_check (vk_right) * sign(oC_RIGHT.tempCount)
+key_right = keyboard_check (vk_right) * sign(oC_RIGHT.count);
 //vis a vis key_left
 key_jump = keyboard_check_pressed(vk_up) * sign(oC_UP.count);
 //checks if pressed, not holding
-key_down = keyboard_check(vk_down) * sign(oC_DOWN.tempCount);
+key_down = keyboard_check(vk_down) * sign(oC_DOWN.count);
 
 grounded =	place_meeting(x, y + 1, oBarrier)
 
