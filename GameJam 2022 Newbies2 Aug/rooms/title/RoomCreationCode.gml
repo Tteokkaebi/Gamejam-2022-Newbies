@@ -1,0 +1,1 @@
+global.currentLevel = 0
