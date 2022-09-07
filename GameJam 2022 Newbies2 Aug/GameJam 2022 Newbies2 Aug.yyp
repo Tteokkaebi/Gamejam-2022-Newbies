@@ -74,6 +74,7 @@
     {"id":{"name":"player_Duck","path":"sprites/player_Duck/player_Duck.yy",},"order":1,},
     {"id":{"name":"Tower_7","path":"rooms/Tower_7/Tower_7.yy",},"order":4,},
     {"id":{"name":"Grass_PLAT","path":"sprites/Grass_PLAT/Grass_PLAT.yy",},"order":13,},
+    {"id":{"name":"oGoldCardCredits","path":"objects/oGoldCardCredits/oGoldCardCredits.yy",},"order":10,},
     {"id":{"name":"o_GOLD","path":"objects/o_GOLD/o_GOLD.yy",},"order":8,},
     {"id":{"name":"Door_G1","path":"sprites/Door_G1/Door_G1.yy",},"order":2,},
     {"id":{"name":"Desert_BLOCK_D","path":"sprites/Desert_BLOCK_D/Desert_BLOCK_D.yy",},"order":28,},
@@ -202,7 +203,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Tower_8","path":"rooms/Tower_8/Tower_8.yy",},},
     {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Grass_1","path":"rooms/Grass_1/Grass_1.yy",},},
     {"roomId":{"name":"Grass_2","path":"rooms/Grass_2/Grass_2.yy",},},
@@ -211,6 +211,7 @@
     {"roomId":{"name":"Desert_5","path":"rooms/Desert_5/Desert_5.yy",},},
     {"roomId":{"name":"Desert_6","path":"rooms/Desert_6/Desert_6.yy",},},
     {"roomId":{"name":"Tower_7","path":"rooms/Tower_7/Tower_7.yy",},},
+    {"roomId":{"name":"Tower_8","path":"rooms/Tower_8/Tower_8.yy",},},
     {"roomId":{"name":"Tower9","path":"rooms/Tower9/Tower9.yy",},},
     {"roomId":{"name":"TheEND","path":"rooms/TheEND/TheEND.yy",},},
     {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
