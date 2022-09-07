@@ -267,6 +267,7 @@
   "creationCodeFile": "${project_dir}/rooms/Tower_8/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
+    {"name":"Tower_8","path":"rooms/Tower_8/Tower_8.yy",},
     {"name":"inst_EB0D296","path":"rooms/Tower_8/Tower_8.yy",},
     {"name":"inst_54FB3EA0","path":"rooms/Tower_8/Tower_8.yy",},
     {"name":"inst_5B3989C4","path":"rooms/Tower_8/Tower_8.yy",},

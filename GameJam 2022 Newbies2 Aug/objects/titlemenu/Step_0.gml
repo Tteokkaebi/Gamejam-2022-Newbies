@@ -10,6 +10,7 @@ if(accept){
 	
 	switch(pos){
 		case 0:
+			global.currentLevel++
 			room_goto_next()
 			break
 		case 1:
