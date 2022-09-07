@@ -8,8 +8,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "SFX",
+    "path": "audiogroups/SFX",
   },
   "soundFile": "sfx_death.ogg",
   "duration": 0.066168,
