@@ -4,7 +4,7 @@
   "visible": false,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oVolume",
+  "name": "oSettings",
   "tags": [],
   "resourceType": "GMObject",
 }
