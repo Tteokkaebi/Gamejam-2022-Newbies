@@ -8,5 +8,5 @@ global.rightCards = newRightCards
 global.leftCards = newLeftCards
 global.downCards = newRightCards
 
-instance_destroy()
+image_speed = 1;
 

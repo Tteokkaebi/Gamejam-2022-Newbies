@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2e6e3f5f-7201-4afc-880c-8c18f1c52941","path":"sprites/Barrier/Barrier.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2e6e3f5f-7201-4afc-880c-8c18f1c52941","path":"sprites/Barrier/Barrier.yy",},"LayerId":{"name":"17b3b27c-50c4-40f9-b00a-a89cfe4a0935","path":"sprites/Barrier/Barrier.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Barrier","path":"sprites/Barrier/Barrier.yy",},"resourceVersion":"1.0","name":"2e6e3f5f-7201-4afc-880c-8c18f1c52941","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"800a7b89-5794-4018-a5cc-8500701ae4f8","path":"sprites/NextLevel/NextLevel.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"800a7b89-5794-4018-a5cc-8500701ae4f8","path":"sprites/NextLevel/NextLevel.yy",},"LayerId":{"name":"76e2509e-946b-4ffa-b9dc-e613ef8cce1f","path":"sprites/NextLevel/NextLevel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"NextLevel","path":"sprites/NextLevel/NextLevel.yy",},"resourceVersion":"1.0","name":"800a7b89-5794-4018-a5cc-8500701ae4f8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Barrier","path":"sprites/Barrier/Barrier.yy",},
+    "spriteId": {"name":"NextLevel","path":"sprites/NextLevel/NextLevel.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d121b758-ff51-4b85-9db0-8cbb0ce024fa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2e6e3f5f-7201-4afc-880c-8c18f1c52941","path":"sprites/Barrier/Barrier.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"0cc9f1dd-5c70-48c4-8ccb-d0129b7bb364","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"800a7b89-5794-4018-a5cc-8500701ae4f8","path":"sprites/NextLevel/NextLevel.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 16,
+    "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Barrier","path":"sprites/Barrier/Barrier.yy",},
+    "parent": {"name":"NextLevel","path":"sprites/NextLevel/NextLevel.yy",},
     "resourceVersion": "1.4",
-    "name": "Barrier",
+    "name": "NextLevel",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"17b3b27c-50c4-40f9-b00a-a89cfe4a0935","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"76e2509e-946b-4ffa-b9dc-e613ef8cce1f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "GameJam 2022 Newbies2 Aug.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "Barrier",
+  "name": "NextLevel",
   "tags": [],
   "resourceType": "GMSprite",
 }

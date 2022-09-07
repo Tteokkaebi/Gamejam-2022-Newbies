@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "INTERACTIBLE TILES",
+    "path": "folders/Objects/INTERACTIBLE TILES.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSpikes",

@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "oTitle",
-    "path": "folders/Objects/oTitle.yy",
+    "name": "INTERACTIBLE TILES",
+    "path": "folders/Objects/INTERACTIBLE TILES.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBarrier",
