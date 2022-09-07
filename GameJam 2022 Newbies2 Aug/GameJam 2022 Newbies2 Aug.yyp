@@ -127,6 +127,7 @@
     {"id":{"name":"Dungeon_BLOCKC","path":"sprites/Dungeon_BLOCKC/Dungeon_BLOCKC.yy",},"order":7,},
     {"id":{"name":"oCS_LEFT","path":"objects/oCS_LEFT/oCS_LEFT.yy",},"order":5,},
     {"id":{"name":"Background1_MAIN","path":"sprites/Background1_MAIN/Background1_MAIN.yy",},"order":0,},
+    {"id":{"name":"EndScreen","path":"sprites/EndScreen/EndScreen.yy",},"order":3,},
     {"id":{"name":"oCS_UP","path":"objects/oCS_UP/oCS_UP.yy",},"order":7,},
     {"id":{"name":"Desert_CORNER_B","path":"sprites/Desert_CORNER_B/Desert_CORNER_B.yy",},"order":38,},
     {"id":{"name":"Tower","path":"rooms/Tower/Tower.yy",},"order":0,},
