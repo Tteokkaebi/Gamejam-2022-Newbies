@@ -186,7 +186,7 @@
     {"id":{"name":"oCS_RIGHT","path":"objects/oCS_RIGHT/oCS_RIGHT.yy",},"order":6,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"Desert_CORNER","path":"sprites/Desert_CORNER/Desert_CORNER.yy",},"order":7,},
-    {"id":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"order":3,},
+    {"id":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"order":9,},
     {"id":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},"order":0,},
   ],
   "Options": [
