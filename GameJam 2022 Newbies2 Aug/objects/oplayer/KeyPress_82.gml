@@ -1,1 +1,1 @@
-room_restart()
+SLIDETRANS(TRANS_MODE.RESTART);
