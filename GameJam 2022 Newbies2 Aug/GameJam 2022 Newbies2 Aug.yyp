@@ -120,7 +120,7 @@
     {"id":{"name":"Background1_MAIN","path":"sprites/Background1_MAIN/Background1_MAIN.yy",},"order":0,},
     {"id":{"name":"oCS_UP","path":"objects/oCS_UP/oCS_UP.yy",},"order":7,},
     {"id":{"name":"Desert_CORNER_B","path":"sprites/Desert_CORNER_B/Desert_CORNER_B.yy",},"order":38,},
-    {"id":{"name":"Dungeon","path":"rooms/Dungeon/Dungeon.yy",},"order":2,},
+    {"id":{"name":"Tower","path":"rooms/Tower/Tower.yy",},"order":2,},
     {"id":{"name":"Desert_PLAT_B","path":"sprites/Desert_PLAT_B/Desert_PLAT_B.yy",},"order":47,},
     {"id":{"name":"Desert_EDGE","path":"sprites/Desert_EDGE/Desert_EDGE.yy",},"order":12,},
     {"id":{"name":"Test","path":"scripts/Test/Test.yy",},"order":14,},
@@ -189,7 +189,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
-    {"roomId":{"name":"Dungeon","path":"rooms/Dungeon/Dungeon.yy",},},
+    {"roomId":{"name":"Tower","path":"rooms/Tower/Tower.yy",},},
     {"roomId":{"name":"Grass","path":"rooms/Grass/Grass.yy",},},
     {"roomId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},},
     {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
