@@ -1,3 +1,3 @@
-global.sfxVol = 100
+global.sfxVol = 20
 global.musicVol = 100
 global.totalGoldCards = 0

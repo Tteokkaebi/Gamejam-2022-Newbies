@@ -1,5 +1,5 @@
-option[0,0] = "SFX Volume: " + string(global.sfxVol)
-option[0,1] = "Music: " + string(global.musicVol)
+option[0,0] = "SFX Volume:" + string(global.sfxVol)
+option[0,1] = "Music Volume:" + string(global.musicVol)
 
 up_key = keyboard_check_pressed(vk_up);
 if(keyboard_check_pressed(vk_up)){audio_play_sound(sfx_Click,10,false)}
@@ -26,12 +26,13 @@ switch(menu_level){
 			case 0:
 				break
 			case 1:
-				break	
+				break
 			case 2:
 				audio_play_sound(sfx_Click2,10,false)
 				instance_activate_all()
 				instance_destroy()
-			break
+				break
+			
 		}
 	}
 	if _sml != menu_level {pos = 0}
@@ -52,7 +53,7 @@ switch(menu_level){
 			case 1:
 					global.musicVol += diff
 					global.musicVol = clamp(global.musicVol,0,100)
-				break	
+				break
 			case 2:
 				break
 		}
