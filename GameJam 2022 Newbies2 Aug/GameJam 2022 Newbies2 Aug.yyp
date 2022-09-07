@@ -12,6 +12,7 @@
     {"id":{"name":"sfx_Click2","path":"sounds/sfx_Click2/sfx_Click2.yy",},"order":4,},
     {"id":{"name":"Grass_4C","path":"sprites/Grass_4C/Grass_4C.yy",},"order":4,},
     {"id":{"name":"Desert_BLOCKCB_B","path":"sprites/Desert_BLOCKCB_B/Desert_BLOCKCB_B.yy",},"order":35,},
+    {"id":{"name":"sfx_Complete","path":"sounds/sfx_Complete/sfx_Complete.yy",},"order":8,},
     {"id":{"name":"Desert_4C","path":"sprites/Desert_4C/Desert_4C.yy",},"order":6,},
     {"id":{"name":"Tiles_DESERT","path":"tilesets/Tiles_DESERT/Tiles_DESERT.yy",},"order":0,},
     {"id":{"name":"Desert_EDGE_D","path":"sprites/Desert_EDGE_D/Desert_EDGE_D.yy",},"order":46,},
