@@ -1,7 +1,7 @@
-global.roomHandSize = 12
-global.upCards = 3
+global.roomHandSize = 14
+global.upCards = 4
 global.downCards = 0
-global.leftCards = 1
+global.leftCards = 2
 global.rightCards = 2
 global.respawnX = 224
-global.respawnY = 1408
+global.respawnY = 1248
