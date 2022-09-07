@@ -52,6 +52,7 @@
     {"id":{"name":"Dungeon_4C","path":"sprites/Dungeon_4C/Dungeon_4C.yy",},"order":6,},
     {"id":{"name":"Desert_CORNERC_B","path":"sprites/Desert_CORNERC_B/Desert_CORNERC_B.yy",},"order":41,},
     {"id":{"name":"player_Death","path":"sprites/player_Death/player_Death.yy",},"order":6,},
+    {"id":{"name":"Familiar_Desert___Puff","path":"sounds/Familiar_Desert___Puff/Familiar_Desert___Puff.yy",},"order":3,},
     {"id":{"name":"question_001","path":"sounds/question_001/question_001.yy",},"order":0,},
     {"id":{"name":"BG3","path":"sprites/BG3/BG3.yy",},"order":2,},
     {"id":{"name":"Desert_BLOCK2C_B","path":"sprites/Desert_BLOCK2C_B/Desert_BLOCK2C_B.yy",},"order":29,},
