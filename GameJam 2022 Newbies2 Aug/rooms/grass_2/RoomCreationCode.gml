@@ -1,4 +1,4 @@
-global.roomHandSize = 17
+global.roomHandSize = 20
 global.upCards = 4
 global.downCards = 4
 global.leftCards = 4

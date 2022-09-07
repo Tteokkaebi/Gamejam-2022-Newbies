@@ -163,7 +163,6 @@
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":47.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},"frozen":false,"ignore":false,"inheritItemSettings":true,"x":0.0,"y":1472.0,"resourceVersion":"1.0","name":"inst_360E6BFE","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oRespawn","path":"objects/oRespawn/oRespawn.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},"frozen":false,"ignore":false,"inheritItemSettings":true,"x":64.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_763D29A6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oD1","path":"objects/oD1/oD1.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"Desert","path":"rooms/Desert/Desert.yy",},"frozen":false,"ignore":false,"inheritItemSettings":true,"x":1468.0,"y":1392.0,"resourceVersion":"1.0","name":"inst_1AD801D4","tags":[],"resourceType":"GMRInstance",},
@@ -321,7 +320,6 @@
   "creationCodeFile": "${project_dir}/rooms/Desert_4/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"Desert_4","path":"rooms/Desert_4/Desert_4.yy",},
     {"name":"inst_4CED1756","path":"rooms/Desert_4/Desert_4.yy",},
     {"name":"inst_208D0BC4","path":"rooms/Desert_4/Desert_4.yy",},
     {"name":"inst_2490578D","path":"rooms/Desert_4/Desert_4.yy",},
@@ -362,7 +360,6 @@
     {"name":"inst_118BE0E9","path":"rooms/Desert_4/Desert_4.yy",},
     {"name":"inst_209B35AD","path":"rooms/Desert_4/Desert_4.yy",},
     {"name":"inst_360E6BFE","path":"rooms/Desert_4/Desert_4.yy",},
-    {"name":"inst_763D29A6","path":"rooms/Desert_4/Desert_4.yy",},
     {"name":"inst_1AD801D4","path":"rooms/Desert_4/Desert_4.yy",},
   ],
   "inheritCreationOrder": true,
