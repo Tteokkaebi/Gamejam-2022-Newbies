@@ -3,9 +3,13 @@
 
 if keyboard_check_pressed(vk_right)
 {
-	if count >0{
+	tempCount = count
+	if count > 0{
     count -= 1
 	}
+}
+if keyboard_check_released(vk_right){
+	tempCount = count
 }
 
 

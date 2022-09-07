@@ -13,6 +13,7 @@ if(accept){
 			room_goto_next()
 			break
 		case 1:
+			instance_create_layer(x, y, layer, OptionsMenu);
 			break	
 		case 2:
 			game_end()
