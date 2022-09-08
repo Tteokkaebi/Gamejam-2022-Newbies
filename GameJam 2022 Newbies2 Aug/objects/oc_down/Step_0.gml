@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if keyboard_check_pressed(vk_down)
+if keyboard_check_pressed(vk_down)||keyboard_check_pressed(ord("S"))
 {
 		if(instance_exists(oPlayer)){
 			tempCount = count	
@@ -11,7 +11,7 @@ if keyboard_check_pressed(vk_down)
 		}
 }
 
-if keyboard_check_released(vk_down){
+if keyboard_check_released(vk_down)||keyboard_check_released(ord("W")){
 	tempCount = count
 }
 

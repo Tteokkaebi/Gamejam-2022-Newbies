@@ -1,14 +1,14 @@
 option[0,0] = "SFX Volume:" + string(global.sfxVol)
 option[0,1] = "Music Volume:" + string(global.musicVol)
 
-up_key = keyboard_check_pressed(vk_up);
-if(keyboard_check_pressed(vk_up)){audio_play_sound(sfx_Click,10,false)}
-down_key = keyboard_check_pressed(vk_down)
-if(keyboard_check_pressed(vk_down)){audio_play_sound(sfx_Click,10,false)}
+up_key = keyboard_check_pressed(vk_up)||keyboard_check_pressed(ord("W"));
+if(keyboard_check_pressed(vk_up)||keyboard_check_pressed(ord("W"))){audio_play_sound(sfx_Click,10,false)}
+down_key = keyboard_check_pressed(vk_down)||keyboard_check_pressed(ord("S"))
+if(keyboard_check_pressed(vk_down)||keyboard_check_pressed(ord("S"))){audio_play_sound(sfx_Click,10,false)}
 accept = keyboard_check_pressed(vk_enter)
-if(keyboard_check_released(vk_left)){audio_play_sound(sfx_AudioTest,10,false)}
-if(keyboard_check_released(vk_right)){audio_play_sound(sfx_AudioTest,10,false)}
-diff = keyboard_check(vk_right) - keyboard_check(vk_left)
+if(keyboard_check_released(vk_left)||keyboard_check_pressed(ord("A"))){audio_play_sound(sfx_AudioTest,10,false)}
+if(keyboard_check_released(vk_right)||keyboard_check_pressed(ord("D"))){audio_play_sound(sfx_AudioTest,10,false)}
+diff = keyboard_check(vk_right)||keyboard_check(ord("D")) - keyboard_check(vk_left)||keyboard_check(ord("A"))
 
 op_length = array_length(option[menu_level])
 

@@ -1,7 +1,7 @@
-up_key = keyboard_check_pressed(vk_up);
-if(keyboard_check_pressed(vk_up)){audio_play_sound(sfx_Click,10,false)}
-down_key = keyboard_check_pressed(vk_down)
-if(keyboard_check_pressed(vk_down)){audio_play_sound(sfx_Click,10,false)}
+up_key = keyboard_check_pressed(vk_up)||keyboard_check_pressed(ord("W"));
+if(keyboard_check_pressed(vk_up)||keyboard_check_pressed(ord("W"))){audio_play_sound(sfx_Click,10,false)}
+down_key = keyboard_check_pressed(vk_down)||keyboard_check_pressed(ord("S"))
+if(keyboard_check_pressed(vk_down)||keyboard_check_pressed(ord("S"))){audio_play_sound(sfx_Click,10,false)}
 accept = keyboard_check_pressed(vk_enter)
 
 pos += down_key - up_key
